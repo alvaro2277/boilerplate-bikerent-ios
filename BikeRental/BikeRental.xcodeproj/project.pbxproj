@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EC7C1E5FBEBD6AC4CF35EC9 /* Pods_BikeRental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4B19B8B56F784CA0FD314C /* Pods_BikeRental.framework */; };
 		44294D0728DA17E200E25BFA /* BikeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44294D0628DA17E200E25BFA /* BikeDetailViewController.swift */; };
 		44294D0A28DA1D7200E25BFA /* BikeDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44294D0828DA1D7200E25BFA /* BikeDetailCollectionViewCell.swift */; };
 		44294D0B28DA1D7200E25BFA /* BikeDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44294D0928DA1D7200E25BFA /* BikeDetailCollectionViewCell.xib */; };
@@ -28,8 +27,16 @@
 		448CF7C628E4AB8800AE03AA /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448CF7C528E4AB8800AE03AA /* UIImageView+Extensions.swift */; };
 		448CF7C928E4B60400AE03AA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448CF7C828E4B60400AE03AA /* ImageLoader.swift */; };
 		44A0B27628F48A5800F3EFE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0B27528F48A5800F3EFE9 /* Constants.swift */; };
-		5E74E7A001027D146AED4B3E /* Pods_BikeRental_BikeRentalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5165BFC2EE4234A5AA33C4EF /* Pods_BikeRental_BikeRentalUITests.framework */; };
-		CF2E9E9CF62984DA974CC883 /* Pods_BikeRentalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7925C0135279AC1BC25EC654 /* Pods_BikeRentalTests.framework */; };
+		6F6CB3B2A4A501CF8F858E0F /* Pods_BikeRental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2802DCB0B4DC59CB3C3488FB /* Pods_BikeRental.framework */; };
+		817E086729C3BC98007041BB /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E086629C3BC98007041BB /* BookingView.swift */; };
+		817E086929C4C75F007041BB /* CalendarDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E086829C4C75F007041BB /* CalendarDatePickerView.swift */; };
+		817E086B29C51678007041BB /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E086A29C51678007041BB /* Date+Extensions.swift */; };
+		81AA8F8B29C51FF60014EE1B /* BookingCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA8F8A29C51FF60014EE1B /* BookingCompletionView.swift */; };
+		81AA8F8D29C529290014EE1B /* BookingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA8F8C29C529290014EE1B /* BookingViewModel.swift */; };
+		81AA8F8F29C5444B0014EE1B /* RentCostResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA8F8E29C5444B0014EE1B /* RentCostResponse.swift */; };
+		81AA8F9329C552280014EE1B /* FinalizeBookingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA8F9229C552280014EE1B /* FinalizeBookingResponse.swift */; };
+		8A9A88F644786DCD7F6B17A6 /* Pods_BikeRentalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77038DBAA24CD2F0F3751817 /* Pods_BikeRentalTests.framework */; };
+		BE4ACAB8FA1B443E2A0EE209 /* Pods_BikeRental_BikeRentalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A0CA35726E583CFB17234D /* Pods_BikeRental_BikeRentalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B4B19B8B56F784CA0FD314C /* Pods_BikeRental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeRental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16E41E9FAA9F029A9B59CF34 /* Pods-BikeRentalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRentalTests.debug.xcconfig"; path = "Target Support Files/Pods-BikeRentalTests/Pods-BikeRentalTests.debug.xcconfig"; sourceTree = "<group>"; };
-		18E5D79E84E62C0D7510A615 /* Pods-BikeRentalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRentalTests.release.xcconfig"; path = "Target Support Files/Pods-BikeRentalTests/Pods-BikeRentalTests.release.xcconfig"; sourceTree = "<group>"; };
-		255625A31512F2A4714B7AFE /* Pods-BikeRental-BikeRentalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental-BikeRentalUITests.debug.xcconfig"; path = "Target Support Files/Pods-BikeRental-BikeRentalUITests/Pods-BikeRental-BikeRentalUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C3C2C06963F9C9A60BC8CCF /* Pods-BikeRental.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental.debug.xcconfig"; path = "Target Support Files/Pods-BikeRental/Pods-BikeRental.debug.xcconfig"; sourceTree = "<group>"; };
+		0910D1A882FE27A54932F979 /* Pods-BikeRental-BikeRentalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental-BikeRentalUITests.debug.xcconfig"; path = "Target Support Files/Pods-BikeRental-BikeRentalUITests/Pods-BikeRental-BikeRentalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A5D978148EE11541DE544B6 /* Pods-BikeRentalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRentalTests.debug.xcconfig"; path = "Target Support Files/Pods-BikeRentalTests/Pods-BikeRentalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2802DCB0B4DC59CB3C3488FB /* Pods_BikeRental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeRental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4E4C038A47CC1A8FD543A3 /* Pods-BikeRental.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental.debug.xcconfig"; path = "Target Support Files/Pods-BikeRental/Pods-BikeRental.debug.xcconfig"; sourceTree = "<group>"; };
 		44294D0628DA17E200E25BFA /* BikeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDetailViewController.swift; sourceTree = "<group>"; };
 		44294D0828DA1D7200E25BFA /* BikeDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		44294D0928DA1D7200E25BFA /* BikeDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BikeDetailCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -79,10 +85,18 @@
 		448CF7C528E4AB8800AE03AA /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		448CF7C828E4B60400AE03AA /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		44A0B27528F48A5800F3EFE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		5165BFC2EE4234A5AA33C4EF /* Pods_BikeRental_BikeRentalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeRental_BikeRentalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		686BE73120BCAD0F1B315A16 /* Pods-BikeRental-BikeRentalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental-BikeRentalUITests.release.xcconfig"; path = "Target Support Files/Pods-BikeRental-BikeRentalUITests/Pods-BikeRental-BikeRentalUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7925C0135279AC1BC25EC654 /* Pods_BikeRentalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeRentalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		935FD0C86745F5ABB927A11C /* Pods-BikeRental.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental.release.xcconfig"; path = "Target Support Files/Pods-BikeRental/Pods-BikeRental.release.xcconfig"; sourceTree = "<group>"; };
+		45158001AD30C10297B0B407 /* Pods-BikeRental.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental.release.xcconfig"; path = "Target Support Files/Pods-BikeRental/Pods-BikeRental.release.xcconfig"; sourceTree = "<group>"; };
+		77038DBAA24CD2F0F3751817 /* Pods_BikeRentalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeRentalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A0CA35726E583CFB17234D /* Pods_BikeRental_BikeRentalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeRental_BikeRentalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817E086629C3BC98007041BB /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		817E086829C4C75F007041BB /* CalendarDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDatePickerView.swift; sourceTree = "<group>"; };
+		817E086A29C51678007041BB /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		81AA8F8A29C51FF60014EE1B /* BookingCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCompletionView.swift; sourceTree = "<group>"; };
+		81AA8F8C29C529290014EE1B /* BookingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewModel.swift; sourceTree = "<group>"; };
+		81AA8F8E29C5444B0014EE1B /* RentCostResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCostResponse.swift; sourceTree = "<group>"; };
+		81AA8F9229C552280014EE1B /* FinalizeBookingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizeBookingResponse.swift; sourceTree = "<group>"; };
+		930BA7933F28F2753A7A3007 /* Pods-BikeRental-BikeRentalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRental-BikeRentalUITests.release.xcconfig"; path = "Target Support Files/Pods-BikeRental-BikeRentalUITests/Pods-BikeRental-BikeRentalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		982DE1A51B9120C6AB0B2A4B /* Pods-BikeRentalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeRentalTests.release.xcconfig"; path = "Target Support Files/Pods-BikeRentalTests/Pods-BikeRentalTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC7C1E5FBEBD6AC4CF35EC9 /* Pods_BikeRental.framework in Frameworks */,
+				6F6CB3B2A4A501CF8F858E0F /* Pods_BikeRental.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2E9E9CF62984DA974CC883 /* Pods_BikeRentalTests.framework in Frameworks */,
+				8A9A88F644786DCD7F6B17A6 /* Pods_BikeRentalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E74E7A001027D146AED4B3E /* Pods_BikeRental_BikeRentalUITests.framework in Frameworks */,
+				BE4ACAB8FA1B443E2A0EE209 /* Pods_BikeRental_BikeRentalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +135,7 @@
 				442F5C1828D4DD180005B46C /* BikeRentalUITests */,
 				442F5BF628D4DD170005B46C /* Products */,
 				9AFD5E0EAEEC4BF22AC039F0 /* Pods */,
-				EFCD80CF8DC68BB1370F95F9 /* Frameworks */,
+				DB188E1D0BAA46E720A9EB54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				448CF7C028E3759200AE03AA /* Bike.swift */,
+				81AA8F8E29C5444B0014EE1B /* RentCostResponse.swift */,
+				81AA8F9229C552280014EE1B /* FinalizeBookingResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,6 +203,9 @@
 				44294D0628DA17E200E25BFA /* BikeDetailViewController.swift */,
 				44294D0828DA1D7200E25BFA /* BikeDetailCollectionViewCell.swift */,
 				44294D0928DA1D7200E25BFA /* BikeDetailCollectionViewCell.xib */,
+				817E086629C3BC98007041BB /* BookingView.swift */,
+				817E086829C4C75F007041BB /* CalendarDatePickerView.swift */,
+				81AA8F8A29C51FF60014EE1B /* BookingCompletionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +224,7 @@
 			children = (
 				442F5C3428D524230005B46C /* UIColor+Extensions.swift */,
 				448CF7C528E4AB8800AE03AA /* UIImageView+Extensions.swift */,
+				817E086A29C51678007041BB /* Date+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -213,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				448CF7C328E3A59C00AE03AA /* MainViewModel.swift */,
+				81AA8F8C29C529290014EE1B /* BookingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -228,22 +249,22 @@
 		9AFD5E0EAEEC4BF22AC039F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2C3C2C06963F9C9A60BC8CCF /* Pods-BikeRental.debug.xcconfig */,
-				935FD0C86745F5ABB927A11C /* Pods-BikeRental.release.xcconfig */,
-				255625A31512F2A4714B7AFE /* Pods-BikeRental-BikeRentalUITests.debug.xcconfig */,
-				686BE73120BCAD0F1B315A16 /* Pods-BikeRental-BikeRentalUITests.release.xcconfig */,
-				16E41E9FAA9F029A9B59CF34 /* Pods-BikeRentalTests.debug.xcconfig */,
-				18E5D79E84E62C0D7510A615 /* Pods-BikeRentalTests.release.xcconfig */,
+				3B4E4C038A47CC1A8FD543A3 /* Pods-BikeRental.debug.xcconfig */,
+				45158001AD30C10297B0B407 /* Pods-BikeRental.release.xcconfig */,
+				0910D1A882FE27A54932F979 /* Pods-BikeRental-BikeRentalUITests.debug.xcconfig */,
+				930BA7933F28F2753A7A3007 /* Pods-BikeRental-BikeRentalUITests.release.xcconfig */,
+				0A5D978148EE11541DE544B6 /* Pods-BikeRentalTests.debug.xcconfig */,
+				982DE1A51B9120C6AB0B2A4B /* Pods-BikeRentalTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		EFCD80CF8DC68BB1370F95F9 /* Frameworks */ = {
+		DB188E1D0BAA46E720A9EB54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0B4B19B8B56F784CA0FD314C /* Pods_BikeRental.framework */,
-				5165BFC2EE4234A5AA33C4EF /* Pods_BikeRental_BikeRentalUITests.framework */,
-				7925C0135279AC1BC25EC654 /* Pods_BikeRentalTests.framework */,
+				2802DCB0B4DC59CB3C3488FB /* Pods_BikeRental.framework */,
+				77A0CA35726E583CFB17234D /* Pods_BikeRental_BikeRentalUITests.framework */,
+				77038DBAA24CD2F0F3751817 /* Pods_BikeRentalTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -255,11 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 442F5C1F28D4DD180005B46C /* Build configuration list for PBXNativeTarget "BikeRental" */;
 			buildPhases = (
-				5D776AAC6EBB6C1130C0577B /* [CP] Check Pods Manifest.lock */,
+				D51C92F1E00C01BAD7421464 /* [CP] Check Pods Manifest.lock */,
 				442F5BF128D4DD170005B46C /* Sources */,
 				442F5BF228D4DD170005B46C /* Frameworks */,
 				442F5BF328D4DD170005B46C /* Resources */,
-				604B07B2674EC02B704AAA47 /* [CP] Embed Pods Frameworks */,
+				D57FE2AC090EFCF32D4B0B98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,7 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 442F5C2228D4DD180005B46C /* Build configuration list for PBXNativeTarget "BikeRentalTests" */;
 			buildPhases = (
-				F0236685F4DC2585F281EC15 /* [CP] Check Pods Manifest.lock */,
+				7BDA361E2E081256F1533602 /* [CP] Check Pods Manifest.lock */,
 				442F5C0728D4DD180005B46C /* Sources */,
 				442F5C0828D4DD180005B46C /* Frameworks */,
 				442F5C0928D4DD180005B46C /* Resources */,
@@ -293,11 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 442F5C2528D4DD180005B46C /* Build configuration list for PBXNativeTarget "BikeRentalUITests" */;
 			buildPhases = (
-				CBF27A1BE90CE5A4F9AC1C48 /* [CP] Check Pods Manifest.lock */,
+				EB7355779232C191918C0C5A /* [CP] Check Pods Manifest.lock */,
 				442F5C1128D4DD180005B46C /* Sources */,
 				442F5C1228D4DD180005B46C /* Frameworks */,
 				442F5C1328D4DD180005B46C /* Resources */,
-				10B96D4D9C27573D21504DE4 /* [CP] Embed Pods Frameworks */,
+				74833A16580E9E8A3A5C803D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,7 +403,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10B96D4D9C27573D21504DE4 /* [CP] Embed Pods Frameworks */ = {
+		74833A16580E9E8A3A5C803D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,68 +420,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeRental-BikeRentalUITests/Pods-BikeRental-BikeRentalUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5D776AAC6EBB6C1130C0577B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BikeRental-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		604B07B2674EC02B704AAA47 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BikeRental/Pods-BikeRental-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BikeRental/Pods-BikeRental-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeRental/Pods-BikeRental-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CBF27A1BE90CE5A4F9AC1C48 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BikeRental-BikeRentalUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0236685F4DC2585F281EC15 /* [CP] Check Pods Manifest.lock */ = {
+		7BDA361E2E081256F1533602 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,6 +442,67 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D51C92F1E00C01BAD7421464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeRental-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57FE2AC090EFCF32D4B0B98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeRental/Pods-BikeRental-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeRental/Pods-BikeRental-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeRental/Pods-BikeRental-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7355779232C191918C0C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeRental-BikeRentalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -489,12 +510,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817E086929C4C75F007041BB /* CalendarDatePickerView.swift in Sources */,
+				81AA8F8D29C529290014EE1B /* BookingViewModel.swift in Sources */,
 				448CF7C628E4AB8800AE03AA /* UIImageView+Extensions.swift in Sources */,
+				81AA8F9329C552280014EE1B /* FinalizeBookingResponse.swift in Sources */,
 				442F5BF928D4DD170005B46C /* AppDelegate.swift in Sources */,
+				81AA8F8F29C5444B0014EE1B /* RentCostResponse.swift in Sources */,
 				442F5C2F28D4F8950005B46C /* BikeTableViewCell.swift in Sources */,
+				81AA8F8B29C51FF60014EE1B /* BookingCompletionView.swift in Sources */,
+				817E086729C3BC98007041BB /* BookingView.swift in Sources */,
 				44294D0A28DA1D7200E25BFA /* BikeDetailCollectionViewCell.swift in Sources */,
 				448CF7BF28E34FD900AE03AA /* NetworkManager.swift in Sources */,
 				448CF7C928E4B60400AE03AA /* ImageLoader.swift in Sources */,
+				817E086B29C51678007041BB /* Date+Extensions.swift in Sources */,
 				442F5C3228D501DD0005B46C /* MainViewController.swift in Sources */,
 				448CF7C128E3759200AE03AA /* Bike.swift in Sources */,
 				44294D0728DA17E200E25BFA /* BikeDetailViewController.swift in Sources */,
@@ -672,7 +700,7 @@
 		};
 		442F5C2028D4DD180005B46C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C3C2C06963F9C9A60BC8CCF /* Pods-BikeRental.debug.xcconfig */;
+			baseConfigurationReference = 3B4E4C038A47CC1A8FD543A3 /* Pods-BikeRental.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -700,7 +728,7 @@
 		};
 		442F5C2128D4DD180005B46C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 935FD0C86745F5ABB927A11C /* Pods-BikeRental.release.xcconfig */;
+			baseConfigurationReference = 45158001AD30C10297B0B407 /* Pods-BikeRental.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -728,7 +756,7 @@
 		};
 		442F5C2328D4DD180005B46C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16E41E9FAA9F029A9B59CF34 /* Pods-BikeRentalTests.debug.xcconfig */;
+			baseConfigurationReference = 0A5D978148EE11541DE544B6 /* Pods-BikeRentalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -748,7 +776,7 @@
 		};
 		442F5C2428D4DD180005B46C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E5D79E84E62C0D7510A615 /* Pods-BikeRentalTests.release.xcconfig */;
+			baseConfigurationReference = 982DE1A51B9120C6AB0B2A4B /* Pods-BikeRentalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -768,7 +796,7 @@
 		};
 		442F5C2628D4DD180005B46C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 255625A31512F2A4714B7AFE /* Pods-BikeRental-BikeRentalUITests.debug.xcconfig */;
+			baseConfigurationReference = 0910D1A882FE27A54932F979 /* Pods-BikeRental-BikeRentalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -786,7 +814,7 @@
 		};
 		442F5C2728D4DD180005B46C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 686BE73120BCAD0F1B315A16 /* Pods-BikeRental-BikeRentalUITests.release.xcconfig */;
+			baseConfigurationReference = 930BA7933F28F2753A7A3007 /* Pods-BikeRental-BikeRentalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
