@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import MapKit
+import SwiftUI
 
 class BikeDetailViewController: UIViewController {
     
@@ -114,6 +115,13 @@ class BikeDetailViewController: UIViewController {
         let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         mapView.centerToLocation(initialLocation)
     }
+
+  @IBAction func rentBikeAction(_ sender: Any) {
+    guard let bike = bike else { return }
+    let hostingVC = UIHostingController(rootView: BookingView(viewModel: BookingViewModel(bike: bike)))
+    hostingVC.modalPresentationStyle = .overFullScreen
+    self.present(hostingVC, animated: true)
+  }
 }
 
 //MARK: Extensions

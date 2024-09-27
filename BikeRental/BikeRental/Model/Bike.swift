@@ -21,3 +21,16 @@ struct Bike: Codable {
     let imageUrls: [String]
 
 }
+
+extension Bike {
+  static let testBike = Bike(id: 1,
+                             candidateId: 1,
+                             name: "Murazik, Thiel and Robel",
+                             type: "Cyclocross Bicycle",
+                             bodySize: 24,
+                             maxLoad: 110,
+                             rate: 109,
+                             description: "",
+                             ratings: 4.8,
+                             imageUrls: ["https://cremecycles.com/images/glowne/13.jpg"])
+}
